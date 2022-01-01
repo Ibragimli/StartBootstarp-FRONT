@@ -1,0 +1,114 @@
+#footerUp {
+    background-color: #2C3E50;
+    height: 272.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        .row {
+            text-align: center;
+
+            h4 {
+                color: white;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+
+            p {
+                color: #fff;
+                font-size: 1.25rem;
+
+                a {
+                    color: #1ABC9C;
+                }
+            }
+
+            .col-md-12,
+            .col-lg-4 {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .footerLeft {
+
+                p {
+                    padding: 0px 80px;
+
+                }
+            }
+
+            .footerMiddle {
+
+                ul {
+                    display: flex;
+                    justify-content: center;
+
+                    li {
+                        cursor: pointer;
+                        border: 2px solid white;
+                        border-radius: 100%;
+                        margin-right: 10px;
+                        list-style: none;
+                        padding: 15px;
+                        width: 3.25rem;
+                        height: 3.25rem;
+
+                        i {
+                            color: white;
+                            font-size: 18px;
+                        }
+                    }
+
+                    li:hover {
+                        background-color: white;
+
+                        i {
+                            color: #1A252F;
+                        }
+                    }
+                }
+            }
+
+            .footerRight {
+
+                p {
+                    font-size: 1.15rem;
+                    padding: 0px -5px;
+                }
+            }
+
+        }
+    }
+}
+
+#copyRight {
+    background-color: #1A252F;
+    text-align: center !important;
+    display: flex;
+    justify-content: center !important;
+    padding: 15px 0px;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        .row {
+
+            align-items: center;
+
+            .copyright{
+                p {
+                    margin-top: 16px;
+                    align-items: center;
+                    color: white;
+                }
+            }
+           
+        }
+    }
+}
