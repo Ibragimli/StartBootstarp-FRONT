@@ -94,30 +94,28 @@ main {
 
             .boxs {
                 display: flex;
-                flex-wrap: wrap;
+                // flex-wrap: wrap;
                 justify-content: center;
                 
                 .portfolio-box {
-                    margin-right: 40px;
+                    margin-right: 0px;
                     margin-bottom: 40px;
                     position: relative;
-                    max-width: 400px;
+                    max-width: 380px;
 
                     img {
 
-                        max-width: 400px;
+                        max-width: 100%;
                         border-radius: 9px;
                     }
 
                     .hover-portfolio {
                         i {
-
-                            font-size: 69px;
+                            left: 162px;
+                            font-size: 62px;
                             position: absolute;
-                            top: 110px;
-                            left: 181px;
+                            top: 97px;
                             color: white;
-
                         }
                     }
                 }

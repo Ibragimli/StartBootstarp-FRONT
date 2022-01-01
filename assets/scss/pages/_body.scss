@@ -69,16 +69,7 @@ h1 {
         }
     }
 
-    #portfolio {
-        .container {
-            .boxs {
-                .portfolio-box {
-                    margin-right: 115px !important;
-                    margin-bottom: 40px !important;
-                }
-            }
-        }
-    }
+    
 
     #about {
         height: 618px !important;
@@ -92,6 +83,28 @@ h1 {
             }
 
 
+        }
+    }
+
+    .boxs {
+       
+        .portfolio-box {
+           
+
+            
+            .hover-portfolio {
+                i {
+                    left: 132px !important;
+                    top: 73px !important;
+                    font-size: 62px !important;
+                    position: absolute;
+                 }
+            }
+        }
+
+        .portfolio-box:hover {
+            background-color: #1ABC9C;
+            ;
         }
     }
 
@@ -197,7 +210,27 @@ h1 {
             }
         }
     }
+    .boxs {
+       
+        .portfolio-box {
+           
 
+            
+            .hover-portfolio {
+                i {
+                    left: 151px !important;
+                    top: 89px !important;
+                    font-size: 62px !important;
+                    position: absolute;
+                 }
+            }
+        }
+
+        .portfolio-box:hover {
+            background-color: #1ABC9C;
+            ;
+        }
+    }
     #footerUp {
         height: 584px;
 
@@ -246,16 +279,7 @@ h1 {
             }
         }
     }
-    #portfolio {
-        .container {
-            .boxs {
-                .portfolio-box {
-                    margin-right: 30px !important;
-                    margin-bottom: 40px !important;
-                }
-            }
-        }
-    }
+    
     #footerUp {
         height: 584px;
 
@@ -309,6 +333,27 @@ h1 {
 
                 }
             }
+        }
+    }
+    .boxs {
+       
+        .portfolio-box {
+           
+
+            
+            .hover-portfolio {
+                i {
+                    left: 161px !important;
+                    top: 96px !important;
+                    font-size: 62px !important;
+                    position: absolute;
+                 }
+            }
+        }
+
+        .portfolio-box:hover {
+            background-color: #1ABC9C;
+            ;
         }
     }
 

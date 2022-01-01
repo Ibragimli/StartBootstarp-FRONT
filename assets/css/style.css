@@ -137,30 +137,28 @@ main #portfolio .container .boxs {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 main #portfolio .container .boxs .portfolio-box {
-  margin-right: 40px;
+  margin-right: 0px;
   margin-bottom: 40px;
   position: relative;
-  max-width: 400px;
+  max-width: 380px;
 }
 
 main #portfolio .container .boxs .portfolio-box img {
-  max-width: 400px;
+  max-width: 100%;
   border-radius: 9px;
 }
 
 main #portfolio .container .boxs .portfolio-box .hover-portfolio i {
-  font-size: 69px;
+  left: 162px;
+  font-size: 62px;
   position: absolute;
-  top: 110px;
-  left: 181px;
+  top: 97px;
   color: white;
 }
 
@@ -523,15 +521,20 @@ h1 {
     background-color: #1ABC9C;
     padding: 8px 12px;
   }
-  #portfolio .container .boxs .portfolio-box {
-    margin-right: 115px !important;
-    margin-bottom: 40px !important;
-  }
   #about {
     height: 618px !important;
   }
   #about .container .aboutDown {
     padding: 10px 20px !important;
+  }
+  .boxs .portfolio-box .hover-portfolio i {
+    left: 132px !important;
+    top: 73px !important;
+    font-size: 62px !important;
+    position: absolute;
+  }
+  .boxs .portfolio-box:hover {
+    background-color: #1ABC9C;
   }
 }
 
@@ -591,6 +594,15 @@ h1 {
   #contact .container .contactDown form {
     padding: 0px 80px !important;
   }
+  .boxs .portfolio-box .hover-portfolio i {
+    left: 151px !important;
+    top: 89px !important;
+    font-size: 62px !important;
+    position: absolute;
+  }
+  .boxs .portfolio-box:hover {
+    background-color: #1ABC9C;
+  }
   #footerUp {
     height: 584px;
   }
@@ -612,10 +624,6 @@ h1 {
   }
   header #head .container .row nav button {
     margin: 0px 30px 0px 0px;
-  }
-  #portfolio .container .boxs .portfolio-box {
-    margin-right: 30px !important;
-    margin-bottom: 40px !important;
   }
   #footerUp {
     height: 584px;
@@ -643,6 +651,15 @@ h1 {
   }
   header #head .container .row nav button {
     margin: 0px 10px 0px 0px !important;
+  }
+  .boxs .portfolio-box .hover-portfolio i {
+    left: 161px !important;
+    top: 96px !important;
+    font-size: 62px !important;
+    position: absolute;
+  }
+  .boxs .portfolio-box:hover {
+    background-color: #1ABC9C;
   }
 }
 /*# sourceMappingURL=style.css.map */
