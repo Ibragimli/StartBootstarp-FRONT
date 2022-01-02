@@ -96,7 +96,7 @@ main {
                 display: flex;
                 // flex-wrap: wrap;
                 justify-content: center;
-                
+
                 .portfolio-box {
                     margin-right: 0px;
                     margin-bottom: 40px;
@@ -104,26 +104,33 @@ main {
                     max-width: 380px;
 
                     img {
-
                         max-width: 100%;
                         border-radius: 9px;
                     }
 
                     .hover-portfolio {
                         i {
-                            left: 162px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
                             font-size: 62px;
-                            position: absolute;
-                            top: 97px;
                             color: white;
+                            background-color: rgba($color: #1ABC9C, $alpha: 0.7);
+                            position: absolute;
+                            top: 0;
+                            width: 94%;
+                            height: 100%;
+                            opacity: 0;
+                            transition: all .3s ease;
+
+                        }
+                        i:hover{
+                            opacity: 1;
                         }
                     }
                 }
 
-                .portfolio-box:hover {
-                    background-color: #1ABC9C;
-                    ;
-                }
+                
             }
         }
     }
@@ -273,7 +280,7 @@ main {
                             &:focus {
                                 outline: none !important;
                                 box-shadow: none;
-                                border-bottom-color: green ;
+                                border-bottom-color: green;
                             }
 
                             font-size: 1.5rem;
@@ -311,5 +318,3 @@ main {
         }
     }
 }
-
-
